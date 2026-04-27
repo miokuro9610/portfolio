@@ -5,7 +5,7 @@
   }
   
   body {
-    background: #ffffff;
+    background: #d9e8ff;
     font-family: Arial, sans-serif;
     padding: 40px;
   }
@@ -24,9 +24,10 @@
   .thumb {
     width: 100%;
     aspect-ratio: 1 / 1;
-    background: #f2f2f2;
+    background: #ffffff;
     margin-bottom: 12px;
     transition: 0.3s;
+    border: 1px solid #000;
   }
   
   .card:hover .thumb {
