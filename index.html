@@ -14,12 +14,15 @@
       <div class="thumb">
         <video
           class="thumb-media"
-          src="a_wave_output_1080.mp4"
           autoplay
           muted
           loop
           playsinline
-        ></video>
+          webkit-playsinline
+          preload="metadata"
+        >
+          <source src="./a_wave_output_1080.mp4" type="video/mp4">
+        </video>
       </div>
       <p>Moving A</p>
     </a>
