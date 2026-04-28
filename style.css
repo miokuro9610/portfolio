@@ -43,6 +43,27 @@
     object-fit: cover;
     display: block;
     background: #f5f5f5;
+    pointer-events: none;
+  }
+
+  .thumb-test2-media {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 18px;
+    background:
+      radial-gradient(circle at top right, #ffffff 0%, rgba(255, 255, 255, 0) 38%),
+      linear-gradient(135deg, #111111 0%, #3a3a3a 45%, #d9d9d9 100%);
+  }
+
+  .thumb-test2-label {
+    display: inline-block;
+    padding: 8px 12px;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0.12em;
+    line-height: 1;
   }
   
   .card:hover .thumb {
